@@ -1,16 +1,22 @@
-# BASIC: BCR assembly from single cells
+# BASIC: BCR Assembly from SIngle Cells
+Version: 1.0.1 (July, 15, 2016)
 
 This repository has been forked from [Canzar et al. 2016](https://academic.oup.com/bioinformatics/article/33/3/425/2584479/BASIC-BCR-assembly-from-single-cells)
 
-NOTE:
-the /db/ folder must remain with the BASIC.py file
+## Install
 
 Pre-requisites and Installation
 * BASIC was developed and tested using Python 3.4.4 and 2.7.10
 * BASIC requires Bowtie2 to run.
 
 ## Usage
-'usage: BASIC.py [-h] [-i TYPE] [-p CONSTANT_VALUE] [-n NAME] [-SE FASTQ]
+
+NOTE: The /db/ folder must remain alongside the BASIC.py file
+
+Run 'python BASIC.py -h' to display usage
+
+```
+usage: BASIC.py [-h] [-i TYPE] [-p CONSTANT_VALUE] [-n NAME] [-SE FASTQ]
                 [-PE_1 LEFT] [-PE_2 RIGHT] [-g GENOME] [-b BOWTIE]
                 [-o OUTPUT_LOCATION] [-v] [--version]
 
@@ -29,19 +35,15 @@ optional arguments:
                       executable
   -o OUTPUT_LOCATION  Output dir (default: none -- current working directory)
   -v                  Turns on verbosity (more details)
-  --version           show program's version number and exit'
-
+  --version           show program's version number and exit
+```
 Example
 
 'python BASIC.py -b <path to Bowtie2> -SE A1_001.fastq.gz' 
 
-## [Manual](http://ttic.uchicago.edu/~aakhan/BASIC/)
+### For further information check out the author's  [manual](http://ttic.uchicago.edu/~aakhan/BASIC/)
 
-Version
-1.0.1 (July, 15, 2016)
-
-Contact
-Please contact: aakhan@ttic.edu for any questions or comments.
+Please contact the original author for any questions or comments: aakhan@ttic.edu
 
 License
 Software provided to academic users under MIT License
