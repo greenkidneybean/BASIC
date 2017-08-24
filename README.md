@@ -13,7 +13,7 @@ Pre-requisites and Installation
 
 NOTE: The /db/ folder must remain alongside the BASIC.py file
 
-Run 'python BASIC.py -h' to display usage
+Run `python BASIC.py -h` to display usage
 
 ```
 usage: BASIC.py [-h] [-i TYPE] [-p CONSTANT_VALUE] [-n NAME] [-SE FASTQ]
