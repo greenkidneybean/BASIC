@@ -37,9 +37,7 @@ optional arguments:
   -v                  Turns on verbosity (more details)
   --version           show program's version number and exit
 ```
-Example
-
-'python BASIC.py -b <path to Bowtie2> -SE A1_001.fastq.gz' 
+Example: `python BASIC.py -b <path to Bowtie2> -SE A1_001.fastq.gz` 
 
 ### For further information check out the author's  [manual](http://ttic.uchicago.edu/~aakhan/BASIC/)
 
